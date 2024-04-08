@@ -1,3 +1,12 @@
+.button {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center; /* Aligns items on the main axis (horizontal, by default) */
+    align-items: center; 
+}
+
 #result {
     height:120px;
     display: flex;
@@ -8,35 +17,28 @@
 }
 
 #first-row, #second-row, #third-row, #fourth-row, #fifth-row{
-    height:50px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 50px;
+    margin: 2px;
 }
 
 .number {
-    box-sizing: border-box;
     background-color: rgb(71, 80, 80);
     color: rgb(234, 239, 240);
-    padding: 50px;
 }
 
 #all-clear {
-    box-sizing: border-box;
     background-color: rgb(206, 87, 55);
     color: rgb(234, 239, 240);
-    padding: 50px;
 }
 
 #plus-minus, #percentage, #decimal {
     background-color: rgb(129, 129, 129);
     color: rgb(234, 239, 240);
-    padding: 50px;
 }
 
 .operator, #equals {
     background-color: rgb(110, 109, 0);
     color: rgb(234, 239, 240);
-    padding: 50px;
 }
